@@ -1,31 +1,19 @@
-const jwt = require('jsonwebtoken');
-const User = require('../schemas/users');
+const jwt = require('jsonwebtoken')
 
-module.exports = async(req, res, next) => {
-	try {
-		const { authorization } = req.headers;
-		const [tokenType, tokenValue] = authorization.split(' ');
+module.exports = (req, res, next) => {
 
-		if (tokenType !== 'Bearer') {
-			res.json({
-				msg: 'TypeIncorrect'
-			});
-			return;
-		}
-		const { userId } = jwt.verify(tokenValue, 'junhee916');
+    try{
+        const token = req.headers.authorization.split(' ')[1]
 
-		await User.findById(userId, { _id: true, names: true, nickname: true, profileImage:true})
-			.exec()
-			.then((user) => {
-				console.log(user)
-				res.locals.user = user;
-				next();
-			});
-	} catch (error) {
-		console.log(error)
-		res.json({
-			msg: 'not_login'
-		});
-		return;
-	}
-};
+        const decoded = jwt.verify(token, process.env.SECRET_KEY)
+
+        req.userData = decoded;
+
+        next();
+    }
+    catch(err){
+        res.status(500).json({
+            msg : err.message
+        })
+    }
+}

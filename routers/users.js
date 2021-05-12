@@ -1,59 +1,23 @@
-const express = require("express");
-const router = express.Router();
-const Users = require("../schemas/users");
-const bcrypt = require("bcrypt");
-const Joi = require("joi");
-const jwt = require("jsonwebtoken");
+const express = require('express')
 
-router.post("/signUp", async (req, res) => {
-  const { names, nickname, password, profileImage } = req.body;
+const {
+    users_delete_all,
+    users_login_user,
+    users_signup_user,
+    users_get_all
+} = require('../controller/user')
+const router = express.Router()
 
-  await Users.create({
-    names,
-    nickname,
-    profileImage,
-    password: bcrypt.hashSync(password, 10),
-  });
+// get userInfo
+router.get('/', users_get_all)
 
-  console.log("회원가입 완료");
-});
+// sign up
+router.post('/signup', users_signup_user)
 
-const postAuthSchema = Joi.object({
-  nickname: Joi.string().required(),
-  password: Joi.string().required(),
-});
+// login
+router.post('/login', users_login_user)
 
-router.post("/auth", async (req, res) => {
-  try {
-    const { nickname, password } = await postAuthSchema.validateAsync(req.body);
+// delete userInfo
+router.delete('/', users_delete_all)
 
-    const authFind = await Users.findOne({ nickname });
-
-    if (!authFind) {
-      res.status(401).send({
-        errorMessage: "이메일 또는 패스워드가 잘못됐습니다.",
-      });
-      return;
-    }
-
-    const same = bcrypt.compareSync(password, authFind.password);
-
-    if (!same) {
-      res.status(401).send({
-        errorMessage: "인증이 잘못되었습니다.",
-      });
-    }
-
-    const token = jwt.sign({ userId: authFind.userId }, "junhee916");
- 
-    res.status(201).send({ token: token, })
-  } catch (err) {
-    console.log(err);
-    res.status(400).send({
-      errorMessage: "요청하 데이터 형식이 올바르지 않습니다.",
-    });
-  }
-
-});
-
-module.exports = router;
+module.exports = router

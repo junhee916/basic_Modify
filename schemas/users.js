@@ -1,30 +1,63 @@
-  
-const mongoose = require("mongoose");
-const {Schema} = mongoose;
+const mongoose = require('mongoose')
+const normalize = require('normalize-url')
+const gravatar = require('gravatar')
+const bcrypt = require('bcryptjs')
 
-const userSchema = new Schema({
+const userSchema = mongoose.Schema(
+    {
+        name : {
+            type : String
+        },
+        nickname : {
+            type : String,
+            required : true,
+            unique : true
+        },
+        password : {
+            type : String,
+            required: true
+        },
+        profileImage : {
+            type : String
+        }
+    },
+    {
+        timestamps : true
+    }
+)
 
-    names :{
-        type: String,
-    },
-    password : {
-        type: String,
-    },
-    nickname : {
-        type: String,
-    },
-    profileImage:{
-        type: String 
+userSchema.pre('save', async function(next){
+    try{
+
+        const avatar = normalize(
+            gravatar.url(this.email, {
+                s : '200',
+                r : 'pg',
+                d : 'mm'
+            }),
+            {forceHttps : true}
+        )
+
+        this.profileImage = avatar
+
+        const salt = await bcrypt.genSalt(10)
+        const passwordHash = await bcrypt.hash(this.password, salt)
+
+        this.password = passwordHash;
+
+        next();
+    }
+    catch(err){
+        next(err)
     }
 })
 
-userSchema.virtual('userId').get(function () {
-	return this._id.toHexString();
-});
+userSchema.methods.comparePassword = async function(isInputPassword, cb){
+    bcrypt.compare(isInputPassword, this.password, (err, isMatch) => {
+        if(err) return cb(err)
 
-userSchema.set('toJSON', {
-	virtuals: true
-});
+        cb(null, isMatch)
+    })
+}
 
-
-module.exports = mongoose.model("Users", userSchema)
+module.exports = mongoose.model('user', userSchema)

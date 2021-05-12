@@ -1,13 +1,24 @@
 require('dotenv').config()
 const express = require('express')
+const bodyParser = require('body-parser')
+const morgan = require('morgan')
+const cors = require('cors')
 const app = express()
 
 const boardRouter = require('./routers/boards')
-const detailRouter = require('./routers/detail')
 const userRouter = require('./routers/users')
 
+// middleware
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended : false}))
+
+app.use(morgan('dev'))
+app.use(cors())
+
+const connectDB = require('./config/database')
+connectDB()
+
 app.use('/board', boardRouter)
-app.use('/detail', detailRouter)
 app.use('/user', userRouter)
 
 const PORT = process.env.PORT || 7000
