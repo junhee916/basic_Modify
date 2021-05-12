@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function login() {
+
+          let nickname = $("#nickname").val();
+          let password = $("#passwords").val();
+
+          $.ajax({
+            type: "POST",
+            url: `/user/auth`,
+            
+            data: {
+              nickname: nickname,
+              password: password,
+            },
+            success: function (response) {
+              console.log(response)
+              let token = response.token
+              localStorage.setItem("token", token); 
+              window.location.href = '/board';
+            },
+          });
+        
+      }
+    </script>
+  </head>
+  <body>
+    <section class="hero is-warning">
+      <div class="hero-body">
+        <p class="title">Login</p>
+        <p class="subtitle">로그인을 진행하세요.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="field">
+          <label class="label">nickname</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Text input" id="nickname"/>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">password</label>
+          <div class="control">
+            <input class="input" type="password" placeholder="Text input" id="passwords"/>
+          </div>
+        </div>
+
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link is-light" onclick="login()">
+              Login
+            </button>
+          </div>
+
+          <div class="control">
+            <button class="button is-link is-light">signUp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

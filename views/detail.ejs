@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString) 
+      const boardId = urlParams.get("boardId")
+
+      $(document).ready(function(){
+        $('#field').empty()
+        boardDetailView()
+      })
+
+      function boardDetailView(){
+        $.ajax({
+          type: "GET",
+          url: `/detail/${boardId}`,
+          data: {},
+          success: function (response) {
+
+            let boards = response["boards"]
+            for(board of boards){
+              let htmlTemp = `
+              <div class="field">
+            <label class="label">Contents</label>
+            <div class="control">
+              <textarea class="textarea" placeholder="Textarea" id="writes">${board["contents"]}</textarea>
+            </div>
+          </div>
+              `
+              $('#field').append(htmlTemp)
+            }
+          }
+        });
+      }
+
+      function boardUpdate(){
+
+        let contents = $('#writes').val() 
+
+        $.ajax({
+          type: "PATCH",
+          url: `/detail/${boardId}`,
+          headers: {
+            authorization: `Bearer ${localStorage.getItem("token")}`,
+          },
+          data: {
+            contents: contents,
+          },
+          success: function (response) {
+            if(response["result"]=='success'){
+              window.location.href="/board"
+            }
+          }
+        });
+      }
+
+      function boardDelete(){
+
+        $.ajax({
+          type: "DELETE",
+          url: `/detail/${boardId}`,
+          headers: {
+            authorization: `Bearer ${localStorage.getItem("token")}`,
+          },
+          data: {
+          },
+          success: function (response) {
+            if(response["result"]=='success'){
+              window.location.href="/board"
+            }
+          }
+        });
+
+      }
+
+    </script>
+  </head>
+  <body>
+    <section class="hero is-warning">
+        <div class="hero-body">
+          <p class="title">
+            Detail
+          </p>
+          <p class="subtitle">
+            내용을 수정 및 제거하세요.
+          </p>
+        </div>
+    </section>
+
+  <section class="section">
+    <div class="container">
+
+        <div id="field">
+
+          </div>
+          
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-link" onclick="boardUpdate()">Update</button>
+            </div>
+            <div class="control">
+                <button class="button is-link" onclick="boardDelete()">Delete</button>
+            </div>
+          </div>
+    </div>
+  </section>
+  </body>
+</html>
