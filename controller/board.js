@@ -4,7 +4,7 @@ exports.boards_get_all = (req, res) => {
 
     boardModel
         .find()
-        .populate('user', ['nickname', 'profileImage'])
+        .populate('userId', ['nickname', 'profileImage'])
         .then(boards => {
             res.json({
                 msg : "get boards",
