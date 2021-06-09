@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T08:42:26.245Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="07AUEQoD6ZJCNLTv5Pwa" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T08:56:05.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="IKQouC2l5mfkVNWrO4HM" version="14.7.6" type="github">
   <diagram id="e1wD5PhbMvUPOnHznusr" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -295,10 +295,10 @@
         <mxCell id="fOdEkcvAjvyOJWPLXvry-6" value="&lt;h1&gt;ScrollPage 참고&lt;/h1&gt;&lt;p&gt;function에 매개변수 val이 있었고 기능을 주고자하는 부분에 val로 표시한 것을 확인&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="42" y="2230" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MsV2zIIszYdnzMvMHSic-1" value="&lt;b&gt;onkeydown&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="MsV2zIIszYdnzMvMHSic-1" value="&lt;b&gt;onkeydown&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="440" y="1760" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MsV2zIIszYdnzMvMHSic-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MsV2zIIszYdnzMvMHSic-3" target="MsV2zIIszYdnzMvMHSic-1">
+        <mxCell id="MsV2zIIszYdnzMvMHSic-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="MsV2zIIszYdnzMvMHSic-3" target="MsV2zIIszYdnzMvMHSic-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="550" y="1770" as="targetPoint" />
             <Array as="points">
@@ -306,10 +306,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MsV2zIIszYdnzMvMHSic-3" value="&lt;div&gt;&lt;b&gt;&amp;lt;script&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; function keyevent(){&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; var keycode = event.keyCode;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; alert(keycode)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/script&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;align=left;" vertex="1" parent="1">
+        <mxCell id="MsV2zIIszYdnzMvMHSic-3" value="&lt;div&gt;&lt;b&gt;&amp;lt;script&amp;gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; function keyevent(){&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; var keycode = event.keyCode;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; alert(keycode)&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&amp;lt;/script&amp;gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;align=left;" parent="1" vertex="1">
           <mxGeometry x="550" y="1830" width="215" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="MsV2zIIszYdnzMvMHSic-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="MsV2zIIszYdnzMvMHSic-5" target="MsV2zIIszYdnzMvMHSic-1">
+        <mxCell id="MsV2zIIszYdnzMvMHSic-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="MsV2zIIszYdnzMvMHSic-5" target="MsV2zIIszYdnzMvMHSic-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="500" y="2080" />
@@ -317,11 +317,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MsV2zIIszYdnzMvMHSic-5" value="&lt;h1&gt;e.preventDefault&amp;nbsp;&lt;/h1&gt;&lt;p&gt;브라우저의 구현에 의해 처리되는 기존의 액션이 동작하지 않게되고, 그 결과 이벤트가 발생되지 않게 된다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MsV2zIIszYdnzMvMHSic-5" value="&lt;h1&gt;e.preventDefault&amp;nbsp;&lt;/h1&gt;&lt;p&gt;브라우저의 구현에 의해 처리되는 기존의 액션이 동작하지 않게되고, 그 결과 이벤트가 발생되지 않게 된다.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="2030" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="MsV2zIIszYdnzMvMHSic-8" value="&lt;b&gt;참고&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="MsV2zIIszYdnzMvMHSic-8" value="&lt;b&gt;참고&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="500" y="1970" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eXka8Ew9YCxGyz-5EVeJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eXka8Ew9YCxGyz-5EVeJ-1" target="eXka8Ew9YCxGyz-5EVeJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eXka8Ew9YCxGyz-5EVeJ-1" value="&lt;b&gt;scrollMode&amp;nbsp;&lt;br&gt;vartical&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2130" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eXka8Ew9YCxGyz-5EVeJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eXka8Ew9YCxGyz-5EVeJ-2" target="eXka8Ew9YCxGyz-5EVeJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eXka8Ew9YCxGyz-5EVeJ-2" value="&lt;b&gt;pageMode&lt;br&gt;horiontal&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="2130" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eXka8Ew9YCxGyz-5EVeJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eXka8Ew9YCxGyz-5EVeJ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="2160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXka8Ew9YCxGyz-5EVeJ-5" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;버튼 전환을 전체 반대로 적용해서 다시 test할 예정&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="2220" width="196" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
