@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T03:54:16.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="qCyoMib4v5vMiKKsdZQ-" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T05:46:18.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="zq_N3mgOLxqaj1P3zelD" version="14.7.6" type="github">
   <diagram id="e1wD5PhbMvUPOnHznusr" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,29 +167,103 @@
         <mxCell id="kPRlGzKAWg22ICulPj3k-98" value="&lt;b&gt;prevBtn a테그에 이미지를 복구&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="34" y="1040" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iuW5i6splYpdamNilFSW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iuW5i6splYpdamNilFSW-1" target="iuW5i6splYpdamNilFSW-2">
+        <mxCell id="iuW5i6splYpdamNilFSW-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iuW5i6splYpdamNilFSW-1" target="iuW5i6splYpdamNilFSW-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iuW5i6splYpdamNilFSW-1" value="&lt;h1&gt;&lt;span&gt;문제점&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;이미지를 아무리 수정해도 넣어지지 않음&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iuW5i6splYpdamNilFSW-1" value="&lt;h1&gt;&lt;span&gt;문제점&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;이미지를 아무리 수정해도 넣어지지 않음&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="1030" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="iuW5i6splYpdamNilFSW-2" value="&lt;h1&gt;개선방안&lt;/h1&gt;&lt;p&gt;먼저 키보드로 움직일 수 있게 진행하고 이미지는 그 이후에 진행하자 우선순위가 아니다&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iuW5i6splYpdamNilFSW-2" value="&lt;h1&gt;개선방안&lt;/h1&gt;&lt;p&gt;먼저 키보드로 움직일 수 있게 진행하고 이미지는 그 이후에 진행하자 우선순위가 아니다&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="540" y="1035" width="195" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="iuW5i6splYpdamNilFSW-4" value="&lt;b&gt;ScrollWheel&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="iuW5i6splYpdamNilFSW-4" value="&lt;b&gt;ScrollWheel&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="40" y="1210" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="iuW5i6splYpdamNilFSW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iuW5i6splYpdamNilFSW-5" target="iuW5i6splYpdamNilFSW-4">
+        <mxCell id="iuW5i6splYpdamNilFSW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iuW5i6splYpdamNilFSW-5" target="iuW5i6splYpdamNilFSW-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iuW5i6splYpdamNilFSW-5" value="&lt;h1&gt;&lt;span&gt;적용&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;scrollwheel에서 event처리를 했던 것처럼 방향키도 event를 넣어서 그 기능을 넣어주는 방향으로 진행해보자&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="iuW5i6splYpdamNilFSW-5" value="&lt;h1&gt;&lt;span&gt;적용&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 12px ; font-weight: 400&quot;&gt;scrollwheel에서 event처리를 했던 것처럼 방향키도 event를 넣어서 그 기능을 넣어주는 방향으로 진행해보자&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="224" y="1210" width="246" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="iuW5i6splYpdamNilFSW-7" value="&lt;b&gt;PrevPage&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="44" y="1360" width="106" height="40" as="geometry" />
+        <mxCell id="iuW5i6splYpdamNilFSW-7" value="&lt;b&gt;PrevPage&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1370" width="106" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iuW5i6splYpdamNilFSW-8" value="&lt;b&gt;NextPage&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="43" y="1430" width="106" height="40" as="geometry" />
+        <mxCell id="iuW5i6splYpdamNilFSW-8" value="&lt;b&gt;NextPage&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="1440" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-1" target="U5ivhS8-NOqXa-dpkwsS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-1" value="&lt;b&gt;onkeydown&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="34" y="1410" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-2" target="iuW5i6splYpdamNilFSW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-2" target="iuW5i6splYpdamNilFSW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-2" value="&lt;b&gt;preventDefault&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="189" y="1410" width="101" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-6" value="&lt;h1&gt;방향기 조작 확인&lt;/h1&gt;&lt;p&gt;이제 prevPage, NextPage에 따라서 페이지가 넘어갈 수 있게 하면 됨&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1380" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-7" value="&lt;b&gt;setPageMode&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="34" y="1520" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-8" target="U5ivhS8-NOqXa-dpkwsS-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-8" target="U5ivhS8-NOqXa-dpkwsS-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-8" value="&lt;b&gt;slider 대신에 옆으로 움직이는 것으로 변경과 연관&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1520" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-11" target="U5ivhS8-NOqXa-dpkwsS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-11" value="&lt;b&gt;Reload&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="219" y="1630" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-12" target="U5ivhS8-NOqXa-dpkwsS-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-12" value="&lt;b&gt;waitForImages&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="1630" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-16" value="&lt;h1&gt;objEngine&amp;nbsp;&lt;/h1&gt;&lt;p&gt;objEngine 안에 bookItem을 받아서 보여줘야하기 때문에 Reload가 scroll 셋팅은 있어도 가로모드 관련된 것이 없어서 추가작업할 예정&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1620" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-18" value="&lt;b&gt;g_slideLayer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="1740" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-19" target="U5ivhS8-NOqXa-dpkwsS-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="1775" />
+              <mxPoint x="170" y="1760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-19" value="&lt;h1&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;epubViewBottomLayer 에 있는 slide를 의미&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="224" y="1740" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-24" target="U5ivhS8-NOqXa-dpkwsS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-24" value="&lt;b&gt;보편적인 영역&amp;nbsp;&lt;br&gt;확인&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="1620" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-26" value="&lt;b&gt;preview_init&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="34" y="1850" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U5ivhS8-NOqXa-dpkwsS-27" target="U5ivhS8-NOqXa-dpkwsS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U5ivhS8-NOqXa-dpkwsS-27" value="&lt;b&gt;가로모드 기본 셋팅&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1850" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
