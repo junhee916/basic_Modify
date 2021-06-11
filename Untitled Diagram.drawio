@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T03:31:16.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="YFcHIkubjKOYmNe9rfxH" version="14.7.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-11T04:02:06.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="UUUrWqKzLCWeR9AgEVVs" version="14.7.7" type="github">
   <diagram id="tSWVm6HiRhOxKwbYRqY0" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,81 +56,81 @@
         <mxCell id="yPCP5B7cBlBc1tXpspPK-9" value="&lt;h1&gt;this.g_scrollModeBtn&lt;/h1&gt;&lt;p&gt;&lt;b&gt;this.g_scrollMode = false&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;this.g_pageMode = true&amp;nbsp;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;this를 class라고 생각했을 때 true, false에 따라서 조건문을 주고 각각 기능을 구현하는 것으로 이해&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="160" y="280" width="270" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yPCP5B7cBlBc1tXpspPK-12" target="4aavXAtbLAsdFWmjOT5o-1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yPCP5B7cBlBc1tXpspPK-12" target="4aavXAtbLAsdFWmjOT5o-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yPCP5B7cBlBc1tXpspPK-12" value="&lt;b&gt;*this.g_scrollMode&lt;br&gt;*this.g_direction == &#39;ltr&#39;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="440" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-1" target="4aavXAtbLAsdFWmjOT5o-3">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-1" target="4aavXAtbLAsdFWmjOT5o-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-1" value="&lt;b&gt;view_mode_change&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-1" value="&lt;b&gt;view_mode_change&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="284" y="480" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-3" target="4aavXAtbLAsdFWmjOT5o-5">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-3" target="4aavXAtbLAsdFWmjOT5o-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-3" value="&lt;h1&gt;문제점&lt;/h1&gt;&lt;p&gt;this.g_scrollMode로 조건문을 했을 때 잘적용되는 것을 확인이 가능하지만 contents가 조절이 안되는 것을 확인&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-3" value="&lt;h1&gt;문제점&lt;/h1&gt;&lt;p&gt;this.g_scrollMode로 조건문을 했을 때 잘적용되는 것을 확인이 가능하지만 contents가 조절이 안되는 것을 확인&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="455" width="220" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-5" target="4aavXAtbLAsdFWmjOT5o-7">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4aavXAtbLAsdFWmjOT5o-5" target="4aavXAtbLAsdFWmjOT5o-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-5" value="&lt;h1&gt;접근 방법&lt;/h1&gt;&lt;p&gt;thi.showScrollDirection으로 조정했을 때 세로모드로&amp;nbsp; scroll이 되는 것을 확인하고 그 위주로 접근을 했지만 view_mode_change가 제대로 되지 않는 것을 확인&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-5" value="&lt;h1&gt;접근 방법&lt;/h1&gt;&lt;p&gt;thi.showScrollDirection으로 조정했을 때 세로모드로&amp;nbsp; scroll이 되는 것을 확인하고 그 위주로 접근을 했지만 view_mode_change가 제대로 되지 않는 것을 확인&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="414" y="630" width="330" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-7" target="4aavXAtbLAsdFWmjOT5o-10">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4aavXAtbLAsdFWmjOT5o-7" target="4aavXAtbLAsdFWmjOT5o-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-7" value="&lt;b&gt;setScrollModeAction&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-7" value="&lt;b&gt;setScrollModeAction&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="260" y="560" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-8" target="4aavXAtbLAsdFWmjOT5o-16">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4aavXAtbLAsdFWmjOT5o-8" target="4aavXAtbLAsdFWmjOT5o-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-8" value="&lt;h1&gt;단면과 양면 조절&amp;nbsp;&lt;/h1&gt;&lt;p&gt;btnStatus 조건문 true false로 onePage, twoPage 조정할 예정&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-8" value="&lt;h1&gt;단면과 양면 조절&amp;nbsp;&lt;/h1&gt;&lt;p&gt;btnStatus 조건문 true false로 onePage, twoPage 조정할 예정&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="34" y="1020" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-10" target="4aavXAtbLAsdFWmjOT5o-12">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-10" target="4aavXAtbLAsdFWmjOT5o-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="748" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-10" value="&lt;b&gt;g_scrollModeBtn&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-10" value="&lt;b&gt;g_scrollModeBtn&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="65" y="562.5" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-12" target="4aavXAtbLAsdFWmjOT5o-14">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-12" target="4aavXAtbLAsdFWmjOT5o-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-12" value="&lt;h1&gt;&lt;span&gt;화면전환 버튼&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;this로 통해서 pageMode, scrollMode 구분&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-12" value="&lt;h1&gt;&lt;span&gt;화면전환 버튼&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;this로 통해서 pageMode, scrollMode 구분&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="24" y="650" width="270" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-14" value="&lt;h1&gt;접근 방법&lt;/h1&gt;&lt;p&gt;이 방법을 여러번 전환해서 조건문도 변경해보고 했지만 세로모드와 가로모드를 상황에 맞게 조절하지 못함&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-14" value="&lt;h1&gt;접근 방법&lt;/h1&gt;&lt;p&gt;이 방법을 여러번 전환해서 조건문도 변경해보고 했지만 세로모드와 가로모드를 상황에 맞게 조절하지 못함&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="800" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-16" target="4aavXAtbLAsdFWmjOT5o-18">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-16" target="4aavXAtbLAsdFWmjOT5o-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-16" target="4aavXAtbLAsdFWmjOT5o-19">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-16" target="4aavXAtbLAsdFWmjOT5o-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-16" value="&lt;b&gt;viewer.css&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-16" value="&lt;b&gt;viewer.css&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="364" y="1045" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-18" target="4aavXAtbLAsdFWmjOT5o-22">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="4aavXAtbLAsdFWmjOT5o-18" target="4aavXAtbLAsdFWmjOT5o-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-18" value="&lt;b&gt;viewer_horizontal&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-18" value="&lt;b&gt;viewer_horizontal&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1020" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-19" target="4aavXAtbLAsdFWmjOT5o-24">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-19" target="4aavXAtbLAsdFWmjOT5o-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-19" value="&lt;b&gt;viewer_vertical&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-19" value="&lt;b&gt;viewer_vertical&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="1085" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-22" target="4aavXAtbLAsdFWmjOT5o-26">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-22" target="4aavXAtbLAsdFWmjOT5o-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="710" y="930" />
@@ -138,24 +138,33 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-22" value="&lt;b&gt;단면&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-22" value="&lt;b&gt;단면&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="1030" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-24" target="4aavXAtbLAsdFWmjOT5o-28">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4aavXAtbLAsdFWmjOT5o-24" target="4aavXAtbLAsdFWmjOT5o-28" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="745" y="1105" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-24" value="&lt;b&gt;양면&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-24" value="&lt;b&gt;양면&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="1095" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-26" value="&lt;b&gt;onePageMode&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="HiM85KFWlcMgnXDzIakg-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-26" target="HiM85KFWlcMgnXDzIakg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-26" value="&lt;b&gt;onePageMode&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="560" y="860" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4aavXAtbLAsdFWmjOT5o-28" value="&lt;b&gt;twoPageMode&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="HiM85KFWlcMgnXDzIakg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4aavXAtbLAsdFWmjOT5o-28" target="HiM85KFWlcMgnXDzIakg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4aavXAtbLAsdFWmjOT5o-28" value="&lt;b&gt;twoPageMode&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="690" y="860" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HiM85KFWlcMgnXDzIakg-1" value="&lt;b&gt;view_mode_change&lt;br&gt;*g_scrollModeBtn&lt;br&gt;동일한 방식&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="740" width="136" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
